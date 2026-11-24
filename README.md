@@ -122,3 +122,12 @@ CyberGuard was developed as a hands-on Python project to explore cybersecurity f
 ---
 
 ⭐ If you find this project interesting, feel free to explore the repository!
+
+## 🖥️ Application Preview
+
+### CyberGuard Dashboard
+
+![CyberGuard Dashboard](static/images/cyberguard-dashboard.png)
+
+The dashboard provides a centralized interface for navigating CyberGuard's security utilities and reports.
+
