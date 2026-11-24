@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CyberGuard | Security Dashboard</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <div class="dashboard">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+
+            <div class="brand">
+                <div class="brand-icon">C</div>
+                <div>
+                    <h2>CyberGuard</h2>
+                    <span>Security Toolkit</span>
+                </div>
+            </div>
+
+            <nav class="navigation">
+                <p class="nav-heading">MENU</p>
+
+                <a href="#dashboard" class="nav-link active">
+                    <span>▦</span> Dashboard
+                </a>
+
+                <a href="#tools" class="nav-link">
+                    <span>⚙</span> Security Tools
+                </a>
+
+                <a href="#reports" class="nav-link">
+                    <span>▤</span> Reports
+                </a>
+
+                <a href="#activity" class="nav-link">
+                    <span>◷</span> Activity
+                </a>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="status-dot"></div>
+                <span>Local Environment</span>
+            </div>
+
+        </aside>
+
+
+        <!-- Main Content -->
+        <main class="main-content" id="dashboard">
+
+            <!-- Topbar -->
+            <header class="topbar">
+                <div>
+                    <p class="breadcrumb">Workspace / Dashboard</p>
+                    <h2>Dashboard Overview</h2>
+                </div>
+
+                <div class="profile">
+                    <div class="profile-icon">CG</div>
+                    <div>
+                        <strong>CyberGuard</strong>
+                        <span>Administrator</span>
+                    </div>
+                </div>
+            </header>
+
+
+            <!-- Welcome Section -->
+            <section class="welcome-section">
+                <div>
+                    <span class="welcome-tag">SECURITY WORKSPACE</span>
+                    <h1>Welcome to CyberGuard</h1>
+                    <p>
+                        Your personal Python-powered cybersecurity toolkit.
+                        Monitor and explore your security utilities in one place.
+                    </p>
+                </div>
+
+                <div class="welcome-icon">🛡️</div>
+            </section>
+
+
+            <!-- Statistics -->
+            <section class="stats-grid">
+
+                <div class="stat-card">
+                    <span class="stat-label">Security Tools</span>
+                    <h2>4</h2>
+                    <p>Available utilities</p>
+                </div>
+
+                <div class="stat-card">
+                    <span class="stat-label">Reports</span>
+                    <h2>0</h2>
+                    <p>Dashboard integration pending</p>
+                </div>
+
+                <div class="stat-card">
+                    <span class="stat-label">Environment</span>
+                    <h2>Local</h2>
+                    <p>Running on Flask</p>
+                </div>
+
+            </section>
+
+
+            <!-- Security Tools -->
+            <section class="content-section" id="tools">
+
+                <div class="section-header">
+                    <div>
+                        <h2>Security Tools</h2>
+                        <p>Explore your available cybersecurity utilities.</p>
+                    </div>
+
+                    <span class="section-label">4 TOOLS</span>
+                </div>
+
+                <div class="tools-grid">
+
+                    <div class="tool-card">
+                        <div class="tool-icon blue">🔐</div>
+                        <h3>Password Checker</h3>
+                        <p>Evaluate password strength using local checks.</p>
+                        <a href="#" class="tool-link">Coming soon →</a>
+                    </div>
+
+                    <div class="tool-card">
+                        <div class="tool-icon purple">🔗</div>
+                        <h3>URL Inspector</h3>
+                        <p>Check the format of a website URL.</p>
+                        <a href="#" class="tool-link">Coming soon →</a>
+                    </div>
+
+                    <div class="tool-card">
+                        <div class="tool-icon green">📁</div>
+                        <h3>File Hash Generator</h3>
+                        <p>Generate SHA-256 hashes for files.</p>
+                        <a href="#" class="tool-link">Coming soon →</a>
+                    </div>
+
+                    <div class="tool-card">
+                        <div class="tool-icon orange">🌐</div>
+                        <h3>IP Information</h3>
+                        <p>View publicly available IP information.</p>
+                        <a href="#" class="tool-link">Coming soon →</a>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- Reports -->
+            <section class="content-section" id="reports">
+
+                <div class="section-header">
+                    <div>
+                        <h2>Security Reports</h2>
+                        <p>Your generated security report collection.</p>
+                    </div>
+                </div>
+
+                <div class="report-panel">
+                    <div class="report-icon">📊</div>
+
+                    <div>
+                        <h3>Report Center</h3>
+                        <p>Report integration will be available soon.</p>
+                    </div>
+
+                    <span class="pending-label">Coming soon</span>
+                </div>
+
+            </section>
+
+
+            <footer class="footer" id="activity">
+                <p>CyberGuard © 2026 | Python Cybersecurity Toolkit</p>
+                <span>Built with Flask</span>
+            </footer>
+
+        </main>
+
+    </div>
+
+</body>
+</html>
